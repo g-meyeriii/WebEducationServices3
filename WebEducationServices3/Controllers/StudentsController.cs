@@ -14,7 +14,7 @@ namespace WebEducationServices3.Controllers
     [ApiController]
     public class StudentsController : ControllerBase
     {
-        private readonly EdDbContext _context;
+        private readonly EdDbContext _context; 
 
         public StudentsController(EdDbContext context)
         {
